@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Devchallenges: 404 not found</title>
+
+    <style>
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        font-family: "Space Mono", monospace;
+      }
+
+      header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .logo {
+        font-family: "Inconsolata", monospace;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        color: #333333;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        opacity: 0.7;
+      }
+
+      .container {
+        width: 100%;
+        max-width: calc(1440px - (77px - 24px) * 2);
+        margin: 0 auto;
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+
+      .hero {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 160px;
+        padding-bottom: 40px;
+      }
+
+      @media screen and (max-width: 1280px) {
+        .hero {
+          padding-top: 40px;
+        }
+      }
+
+      .hero__image {
+        flex-basis: 50%;
+        width: 100%;
+        max-width: 540px;
+        height: auto;
+      }
+
+      @media screen and (max-width: 768px) {
+        .hero__image {
+          width: calc(100vw - 44px * 2);
+        }
+      }
+
+      .hero__content {
+        max-width: 586px;
+        margin-left: 30px;
+      }
+
+      @media screen and (max-width: 1280px) {
+        .hero__content {
+          max-width: 100%;
+          margin-left: 0;
+          text-align: center;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .hero__content {
+          text-align: left;
+        }
+      }
+
+      .hero__title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+      }
+
+      @media screen and (max-width: 1280px) {
+        .hero__title {
+          font-size: 48px;
+          line-height: 71px;
+        }
+      }
+
+      .hero__notice {
+        max-width: 381px;
+        margin: 36px 0 64px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        color: #4f4f4f;
+      }
+
+      @media screen and (max-width: 1280px) {
+        .hero__notice {
+          max-width: 100%;
+          text-align: center;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .hero__notice {
+          margin: 30px 0 66px;
+          text-align: left;
+        }
+      }
+
+      .button {
+        padding: 0 43px;
+        height: 68px;
+        border: none;
+        background-color: transparent;
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease-in-out;
+        cursor: pointer;
+      }
+
+      .button-primary {
+        background-color: rgba(51, 51, 51, 1);
+        color: #ffffff;
+      }
+
+      .button-primary:hover {
+        background-color: rgba(51, 51, 51, 0.7);
+      }
+
+      footer {
+        margin-top: auto;
+      }
+
+      .footer-author {
+        margin: 24px 0;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #bdbdbd;
+      }
+
+      .footer-author__link {
+        font-weight: 700;
+        color: #bdbdbd;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <a class="logo" href="/">404 NOT FOUND</a>
+    </header>
+    <main class="container">
+      <div class="hero">
+        <img
+          class="hero__image"
+          src="./Scarecrow.png"
+          alt="Scarecrow"
+          width="540"
+          height="448"
+        />
+        <div class="hero__content">
+          <h1 class="hero__title">I have bad news for you</h1>
+          <p class="hero__notice">
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </p>
+          <button type="button" class="button button-primary">
+            BACK TO HOMEPAGE
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="footer-author">
+        created by
+        <a
+          class="footer-author__link"
+          href="https://devchallenges.io/portfolio/YuriFA"
+          rel="noopener"
+          target="_blank"
+          >YuriFA</a
+        >
+        - devChallenges.io
+      </p>
+    </footer>
+  </body>
+</html>
