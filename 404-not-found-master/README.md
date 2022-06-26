@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://steady-donut-500246.netlify.app/404-not-found-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/YuriFA/devchallenges-challenges/tree/master/404-not-found-master">
       Solution
     </a>
     <span> | </span>
@@ -27,10 +27,6 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
