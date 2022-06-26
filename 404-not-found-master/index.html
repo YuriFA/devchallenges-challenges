@@ -45,6 +45,13 @@
         padding-bottom: 40px;
       }
 
+      @media screen and (max-width: 768px) {
+        header {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+      }
+
       .logo {
         font-family: "Inconsolata", monospace;
         font-weight: 700;
@@ -75,26 +82,34 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        flex-wrap: wrap;
         padding-top: 160px;
         padding-bottom: 40px;
       }
 
       @media screen and (max-width: 1280px) {
         .hero {
-          padding-top: 40px;
+          padding-top: 80px;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .hero {
+          flex-wrap: wrap;
+          padding-top: 44px;
         }
       }
 
       .hero__image {
-        flex-basis: 50%;
-        width: 100%;
+        flex-grow: 1;
+        flex-basis: 40%;
+        width: 40%;
         max-width: 540px;
         height: auto;
       }
 
       @media screen and (max-width: 768px) {
         .hero__image {
+          flex-grow: 0;
           width: calc(100vw - 44px * 2);
         }
       }
@@ -106,15 +121,16 @@
 
       @media screen and (max-width: 1280px) {
         .hero__content {
-          max-width: 100%;
-          margin-left: 0;
-          text-align: center;
+          max-width: 500px;
+          margin-left: 20px;
         }
       }
 
       @media screen and (max-width: 768px) {
         .hero__content {
-          text-align: left;
+          max-width: 100%;
+          margin-top: 60px;
+          margin-left: 0;
         }
       }
 
@@ -133,6 +149,12 @@
         }
       }
 
+      @media screen and (max-width: 768px) {
+        .hero__title {
+          margin-right: -24px;
+        }
+      }
+
       .hero__notice {
         max-width: 381px;
         margin: 36px 0 64px;
@@ -146,7 +168,6 @@
       @media screen and (max-width: 1280px) {
         .hero__notice {
           max-width: 100%;
-          text-align: center;
         }
       }
 
@@ -216,7 +237,7 @@
           height="448"
         />
         <div class="hero__content">
-          <h1 class="hero__title">I have bad news for you</h1>
+          <h1 class="hero__title">I&nbsp;have bad news for&nbsp;you</h1>
           <p class="hero__notice">
             The page you are looking for might be removed or is temporarily
             unavailable
