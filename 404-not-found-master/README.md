@@ -32,8 +32,8 @@
 
 ## Overview
    ### Desktop
-   ![screenshot](https://user-images.githubusercontent.com/10403829/175812026-03460bb2-343a-4d10-bfe4-aba46325b2ee.png)
+   <img width="1449" alt="image" src="https://user-images.githubusercontent.com/10403829/175812336-6f5ae027-3e09-4415-8cda-67394d6fe6d5.png">
 
    ### Mobile
-   ![screenshot](https://user-images.githubusercontent.com/10403829/175812137-69c8de7f-4a5a-4d71-b45e-3077e9b4b31c.png)
+   <img width="382" alt="image" src="https://user-images.githubusercontent.com/10403829/175812308-6844bd40-6fa6-4c73-a4e4-d944641593b2.png">
 
